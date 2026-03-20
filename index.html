@@ -148,26 +148,7 @@ async function enviar() {
     }
 }
 
-//async function enviar() {
-//    const input = document.getElementById("pergunta");
-  //  const pergunta = input.value.trim();
 
-   // if (!pergunta) return;
-
-//    adicionarMensagem(pergunta, "user");
- //   input.value = "";
-
-  //  const loading = adicionarMensagem("Digitando...", "bot");
-
-   // const response = await fetch(`http://127.0.0.1:8000/chat?pergunta=${encodeURIComponent(pergunta)}`);
-    //const data = await response.json();
-
-    //loading.innerText = "";
-
-    //await escreverTexto(loading, data.resposta);
-//}
-
-// ENTER para enviar
 document.getElementById("pergunta").addEventListener("keypress", function(e) {
     if (e.key === "Enter") {
         enviar();
