@@ -17,7 +17,6 @@ Exemplo profissional de um chatbot com IA rodando localmente, com **respostas em
 
 ## 🏗️ Arquitetura
 
-```mermaid
 flowchart LR
   A[Browser (HTML/JS)] -->|HTTP /chat| B[FastAPI]
   B -->|stream| C[Ollama (llama3)]
